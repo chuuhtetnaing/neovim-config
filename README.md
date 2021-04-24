@@ -14,6 +14,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 brew tap homebrew/cask-fonts
 brew cask install font-fira-code-nerd-font
 ```
+For fedora, the fonts are needed to install in /usr/share/fonts/ instead of ~/.local/share/fonts/
 
 ## Change Nerd Font for Terminal
 * Terminal -> Preferences... -> Profiles -> Font -> Change... -> FiraCode Nerd Font
