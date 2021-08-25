@@ -12,7 +12,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ## Install [Nerd Font](https://github.com/ryanoasis/nerd-fonts#font-installation)
 ```bash
 brew tap homebrew/cask-fonts
-brew cask install font-fira-code-nerd-font
+brew install font-fira-code-nerd-font
 ```
 For fedora, the fonts are needed to install in /usr/share/fonts/ instead of ~/.local/share/fonts/
 
